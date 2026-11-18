@@ -73,8 +73,7 @@ def render_frame(frame_index, t):
         q *= spiral.a
 
     output_filename = "double-%02d.png" % (frame_index,)
-    with open(output_filename, 'w') as out:
-        im.write_to_png(out)
+    im.write_to_png(output_filename)
 
 for frame_index in range(FRAMES):
     render_frame(frame_index, 3*frame_index/FRAMES)
