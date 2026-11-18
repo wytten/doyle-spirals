@@ -1,6 +1,6 @@
 from PIL import Image
 
-frames = [Image.open(f"double-{i:02d}.png") for i in range(15)]
+frames = [Image.open(f"double-{i:02d}.png") for i in range(16)]
 frames[0].save(
     "double-spiral.gif",
     save_all=True,
