@@ -1,0 +1,1 @@
+A Doyle spiral is a geometric pattern of non-crossing, touching circles in a plane where every individual circle is surrounded by a ring (or corona) of six tangent circles, forming a locally hexagonal (triangular lattice) arrangement.
